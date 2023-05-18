@@ -1,13 +1,15 @@
 # blog-playwright-bdd
 
-Repositório de exemplo para o artigo [Playwright, BDD & a minha opinião sobre isso](https://testingwithrenata.com/blog/test-automation/playwright/playwright-bdd-a-minha-opiniao-sobre-isso/)
+ 🇧🇷 Para Português, [clique aqui](./README.br.md).
 
-Por [Renata Andrade](https://www.linkedin.com/in/raptatinha/)
+Example for the article [Playwright, BDD & my opinion about it](https://testingwithrenata.com/blog/test-automation/playwright/playwright-bdd-a-minha-opiniao-sobre-isso/)
 
-Se você achou útil, considere deixar uma ⭐️ no repositório.
+By [Renata Andrade](https://www.linkedin.com/in/raptatinha/)
+
+If you find it useful, consider leaving a ⭐️ for this repo.
 Happy Testing 🎭!
 
-## Dependências
+## Dependecies
 
 - Playwright v1.33.0
 - Cucumber v9.1.2
@@ -16,7 +18,7 @@ Happy Testing 🎭!
 - Node v19.8.1
 - npm v9.6.5
 
-## Configuração e execução do projeto
+## Setup and Run
 
 Em seu terminal, rode:
 1. `git clone https://github.com/raptatinha/blog-playwright-bdd.git`
@@ -24,19 +26,20 @@ Em seu terminal, rode:
 1. `npm i`
 1. `npx cucumber-js`
 
-## Importante
-Neste projeto não serão priorizadas as boas práticas de automação de testes já que o objetivo é demonstrar o uso de Playwright com BDD. Foram realizadas as configurações mínimas para a esta demonstração.
+## Important
 
-## Estudos complementares
+For this project, coding good practices were not prioritizes since the main goal is to demo the usage of Playwright and BDD. Only the minimun setup was implemented for this demo.
 
-- Palestra sobre [Playwright](https://youtube.com/watch?v=eJ6V1de9nHY) do [Stefan Teixeira](https://linkedin.com/in/stefanteixeira/) no [Minas Testing Conference](https://minastestingconference.com.br/) 2022
+## More
 
-- Cursos de [Playwright](https://testingwithrenata.com/trainings/) da [Renata Andrade](https://www.linkedin.com/in/raptatinha/)
+- Talk about [Playwright](https://youtube.com/watch?v=eJ6V1de9nHY) by [Stefan Teixeira](https://linkedin.com/in/stefanteixeira/) for [Minas Testing Conference](https://minastestingconference.com.br/) 2022
 
-- Framework que implementa todo o setup [playwright-bdd](https://github.com/vitalets/playwright-bdd)
+- The [Playwright trainings](https://testingwithrenata.com/trainings/)by [Renata Andrade](https://www.linkedin.com/in/raptatinha/)
 
-- Playwright com BDD em [JavaScript](https://dev.to/jankaritech/behavior-driven-development-bdd-using-playwright-n1o)
+- Framework with all the setup [playwright-bdd](https://github.com/vitalets/playwright-bdd)
 
-- Documentação do framework [Cucumber](https://github.com/cucumber/cucumber-js)
+- Playwright with BDD in [JavaScript](https://dev.to/jankaritech/behavior-driven-development-bdd-using-playwright-n1o)
 
-- Exemplo de implementação mais completa: https://github.com/Tallyb/cucumber-playwright/
+- Framework docs [Cucumber](https://github.com/cucumber/cucumber-js)
+
+- More robust implementation: https://github.com/Tallyb/cucumber-playwright/
