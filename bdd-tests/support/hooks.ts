@@ -11,6 +11,7 @@ BeforeAll(async function () {
         headless: false,
     });
 });
+
 AfterAll(async function () {
     await global.browser.close();
 });
