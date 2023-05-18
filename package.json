@@ -1,0 +1,16 @@
+{
+  "name": "blog-playwright-bdd",
+  "version": "1.0.0",
+  "description": "Repositório de exemplo para o artigo [Playwright - vantagens e comparação ao Cypress](https://testingwithrenata.com/blog/test-automation/playwright-vantagens-e-comparacao-ao-cypress/)",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "@playwright/test": "^1.33.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
