@@ -24,6 +24,10 @@ Em seu terminal, rode:
 1. `npm i`
 1. `npx cucumber-js`
 
+O teste "Has Title" está intencionalmente falhando para que possamos ver o relatório de testes.
+
+Para ver o relatório de testes, abra o arquivo [bdd-tests/reports/cucumber-report.html](bdd-tests/reports/cucumber-report.html) no seu browser.
+
 ## Importante
 
 Neste projeto não serão priorizadas as boas práticas de automação de testes já que o objetivo é demonstrar o uso de Playwright com BDD. Foram realizadas as configurações mínimas para a esta demonstração.

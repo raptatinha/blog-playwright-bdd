@@ -20,11 +20,15 @@ Happy Testing 🎭!
 
 ## Setup and Run
 
-Em seu terminal, rode:
+On your terminal, run:
 1. `git clone https://github.com/raptatinha/blog-playwright-bdd.git`
 1. `cd blog-playwright-bdd`
 1. `npm i`
 1. `npx cucumber-js`
+
+The test "Has Title" is intentionally failing so we can see the reports.
+
+To see the report, open the file [bdd-tests/reports/cucumber-report.html](bdd-tests/reports/cucumber-report.html) on your browser.
 
 ## Important
 
@@ -34,7 +38,7 @@ For this project, coding good practices were not prioritizes since the main goal
 
 - Talk about [Playwright](https://youtube.com/watch?v=eJ6V1de9nHY) by [Stefan Teixeira](https://linkedin.com/in/stefanteixeira/) for [Minas Testing Conference](https://minastestingconference.com.br/) 2022
 
-- The [Playwright trainings](https://testingwithrenata.com/trainings/)by [Renata Andrade](https://www.linkedin.com/in/raptatinha/)
+- The [Playwright trainings](https://testingwithrenata.com/trainings/) by [Renata Andrade](https://www.linkedin.com/in/raptatinha/)
 
 - Framework with all the setup [playwright-bdd](https://github.com/vitalets/playwright-bdd)
 
@@ -43,3 +47,5 @@ For this project, coding good practices were not prioritizes since the main goal
 - Framework docs [Cucumber](https://github.com/cucumber/cucumber-js)
 
 - More robust implementation: https://github.com/Tallyb/cucumber-playwright/
+
+🙌🏽 Kudos everyone!

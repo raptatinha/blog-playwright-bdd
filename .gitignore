@@ -4,3 +4,5 @@ node_modules/
 /playwright-report/
 /playwright/.cache/
 /bdd-tests/reports/
+
+.DS_Store
