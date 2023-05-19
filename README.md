@@ -2,7 +2,7 @@
 
  🇧🇷 Para Português, [clique aqui](./README.br.md).
 
-Example for the article [Playwright, BDD & my opinion about it](https://testingwithrenata.com/blog/test-automation/playwright/playwright-bdd-a-minha-opiniao-sobre-isso/)
+Example for the article [Playwright, BDD, Cucumber & my opinion about it](https://testingwithrenata.com/blog/test-automation/playwright/playwright-bdd-cucumber-e-a-minha-opiniao-sobre-isso/)
 
 By [Renata Andrade](https://www.linkedin.com/in/raptatinha/)
 
@@ -24,11 +24,18 @@ On your terminal, run:
 1. `git clone https://github.com/raptatinha/blog-playwright-bdd.git`
 1. `cd blog-playwright-bdd`
 1. `npm i`
+
+To run the Cucumber tests (under /bdd-tests):
 1. `npx cucumber-js`
+
+To run the playwright with and without bdd testes (under /tests):
+1. `npx playwright test`
 
 The test "Has Title" is intentionally failing so we can see the reports.
 
-To see the report, open the file [bdd-tests/reports/cucumber-report.html](bdd-tests/reports/cucumber-report.html) on your browser.
+To see the Cucumber report, open the file [bdd-tests/reports/cucumber-report.html](bdd-tests/reports/cucumber-report.html) on your browser.
+
+The Playwright report will open automatically on failures.
 
 ## Important
 
@@ -47,5 +54,7 @@ For this project, coding good practices were not prioritizes since the main goal
 - Framework docs [Cucumber](https://github.com/cucumber/cucumber-js)
 
 - More robust implementation: https://github.com/Tallyb/cucumber-playwright/
+
+- Nice reading about [BDD](https://cucumber.io/docs/bdd/)
 
 🙌🏽 Kudos everyone!
